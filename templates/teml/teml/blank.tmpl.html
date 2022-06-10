@@ -1,0 +1,44 @@
+{{define "teml/teml/blank.tmpl.html" }}
+{{template "teml/teml/upper.tmpl.html" .}}
+
+ <div class="page-wrapper"><!-- /div in lower.tmpl -->
+        <!-- ============================================================== -->
+        <!-- Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <div class="page-breadcrumb">
+			<div class="row">
+            <div class="col-12 d-flex no-block align-items-center">
+              <h4 class="page-title">Title --> Blank</h4>
+              <div class="ms-auto text-end">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">หน้าแรก</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      ------
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid">
+          <!-- ============================================================== -->
+          <!-- Start Page Content -->
+          <!-- ============================================================== -->
+				+++ เนื้อหาที่ต้องแสดง +++
+           
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+
+{{template "teml/teml/lower.tmpl.html" .}}
+
+{{end}}
