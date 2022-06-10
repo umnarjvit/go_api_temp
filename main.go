@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"net/url"
+	//"net/url"
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/heroku/x/hmetrics/onload"
@@ -39,6 +39,7 @@ func main() {
 	*/
 	router.Run(":" + port)
 }
+/*
 func ShowLogin(c *gin.Context) {
 	cc := gin.H{"title": "หน้าแรก"}
 	c.HTML(http.StatusOK, "teml/teml/login.tmpl.html", cc)
@@ -46,3 +47,4 @@ func ShowLogin(c *gin.Context) {
 	c.Abort()
 
 }
+*/
