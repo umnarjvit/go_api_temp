@@ -41,6 +41,7 @@ func main() {
 }
 
 func ShowLogin(c *gin.Context) {
+	fmt.Println("This is Login")
 	cc := gin.H{"title": "หน้าแรก"}
 	c.HTML(http.StatusOK, "teml/teml/login.tmpl.html", cc)
 
