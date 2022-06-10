@@ -1,4 +1,6 @@
-module github.com/heroku/go-getting-started
+module github.com/lukplarnoi/gotemp
+
+//CR : module github.com/heroku/go-getting-started/lukplarnoi
 
 // +heroku goVersion go1.17
 go 1.17
