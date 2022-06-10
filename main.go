@@ -43,7 +43,8 @@ func main() {
 func ShowLogin(c *gin.Context) {
 	 
 	cc := gin.H{"title": "หน้าแรก"}
-	c.HTML(http.StatusOK, "login.tmpl.html", cc)
+	//c.HTML(http.StatusOK, "login.tmpl.html", cc)
+	c.HTML(http.StatusOK, "index.tmpl.html", nil)
 	//c.HTML(http.StatusOK, "teml/teml/login.tmpl.html", cc)
 
 	//c.Abort()
