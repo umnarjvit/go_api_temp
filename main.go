@@ -24,6 +24,9 @@ func main() {
 	router.Static("/static", "static")
 	
 	router.GET("/login", ShowLogin(c)) // login page
+	router.GET("/m1", func(c *gin.Context) {
+			c.HTML(http.StatusOK, "login.tmpl.html", nil)
+		})
 	/*
 		router.GET("/", func(c *gin.Context) {
 			c.HTML(http.StatusOK, "index.tmpl.html", nil)
