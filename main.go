@@ -31,6 +31,9 @@ func main() {
 		router.GET("/m2", func(c *gin.Context) {
 			c.HTML(http.StatusOK, "index.tmpl.html", nil)
 		})
+	router.GET("/", func(c *gin.Context) {
+			c.HTML(http.StatusOK, "index.tmpl.html", nil)
+		})
 	
 	/*
 	router.NoRoute(func(c *gin.Context) {
