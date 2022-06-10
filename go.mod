@@ -1,4 +1,5 @@
-module github.com/lukplarnoi/gotemp
+module github.com/heroku/go-getting-started
+//module github.com/lukplarnoi/gotemp
 
 //CR : module github.com/heroku/go-getting-started/lukplarnoi
 
